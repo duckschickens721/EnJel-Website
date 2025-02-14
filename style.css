@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: violet;
+    color:black;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: #A1CCA5;
+    color:black;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+.timeline{
+    position:relative;
+    max-width:800px;
+    margin: 50px auto;
+}
+.container{
+    width:80%;
+    padding: 10px 50px;
+    position: relative;
+    max-width: 800px;
+    min-width: 500px;
+}
+img {
+    max-width: 100%; /* Ensures the image doesn't overflow */
+    height: auto; /* Keeps the aspect ratio */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image */
+}
+.container .content{
+    padding:20px;
+    background-color: #A1CCA5;
+    border-radius:20px;
+    box-shadow:0px 4px 8px rgba(0, 0, 0, 0.2);
+    position:relative;
+    text-align: left;
+}
+.container img{
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+.love-letter{
+    margin:50px auto;
+    background-color:#A1CCA5;
+    padding:20px;
+    border-radius:10px;
+}
+button{
+    background:#A1CCA5;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    font-size:1.2em;
+    cursor:pointer;
+    border-radius:5px;
+}
+.future-plans{
+    background-color:bisque;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+footer{
+    background-color:bisque;
+    color:black;
+    padding:10px;
+    margin-top:50px;
+}
